@@ -1,3 +1,4 @@
+import { SiteFooter } from "../site-footer";
 import { SiteHeader } from "../site-header";
 import { DiagnosticForm } from "../diagnostic-form";
 import { ReviewsCarousel } from "../reviews-carousel";
@@ -23,4 +24,4 @@ export default function Page(){return <main><SiteHeader/>    <section className=
       </div>
       <div className="case-grid">{cases.map(item=><article className="case-card" key={item.name}><div className="case-logo"><img src={item.logo} alt={item.name}/></div><h3>{item.name}</h3><p>{item.work}</p></article>)}</div>
       <ReviewsCarousel />
-    </section>    <footer><a className="brand brand-footer" href="/"><span className="brand-mark">IT</span><span>ТЕРАПИЯ</span></a><p>Успешные IT‑проекты начинаются с честного разговора.</p><p>© 2026 IT‑Терапия</p></footer></main>}
+    </section>    <SiteFooter/></main>}

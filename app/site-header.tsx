@@ -17,7 +17,7 @@ export function SiteHeader({ ctaHref="/#diagnostic", ctaLabel="Обсудить 
   return <header className="site-header">
     <a className="brand" href="/" aria-label="IT-Терапия — на главную"><span className="brand-mark">IT</span><span>ТЕРАПИЯ</span></a>
     <nav aria-label="Основная навигация">{links.map(link=><a href={link.href} key={link.href}>{link.label}</a>)}</nav>
-    <a className="header-cta" href={ctaHref}>{ctaLabel} <span aria-hidden="true"></span></a>
+    <a className="header-cta" href={ctaHref}>{ctaLabel}</a>
     <Sheet>
       <SheetTrigger className="mobile-menu-trigger" aria-label="Открыть меню"><Menu aria-hidden="true"/></SheetTrigger>
       <SheetContent className="mobile-menu-sheet">

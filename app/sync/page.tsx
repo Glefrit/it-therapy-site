@@ -1,3 +1,4 @@
+import { SiteFooter } from "../site-footer";
 import type { Metadata } from "next";
 import { DiagnosticForm } from "../diagnostic-form";
 import { SiteHeader } from "../site-header";
@@ -40,6 +41,6 @@ export default function SyncPage(){
 
     <section className="sync-facts"><div><strong>до 30</strong><span>участников</span></div><div><strong>1 день</strong><span>интенсивной работы</span></div><div><strong>2 команды</strong><span>заказчик и подрядчик</span></div><div><strong>любой этап</strong><span>от старта до кризиса</span></div></section>
     <DiagnosticForm/>
-    <footer><a className="brand brand-footer" href="/"><span className="brand-mark">IT</span><span>ТЕРАПИЯ</span></a><p>Синхронизация начинается с честного разговора.</p><p>© 2026 IT‑Терапия</p></footer>
+    <SiteFooter/>
   </main>;
 }

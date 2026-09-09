@@ -1,3 +1,4 @@
+import { SiteFooter } from "../site-footer";
 import type { Metadata } from "next";
 import { SiteHeader } from "../site-header";
 
@@ -64,6 +65,6 @@ export default function GamesPage(){
 
     <section className="format-band"><h2>Офлайн и под ваш запрос.</h2><p>Обе игры можно провести офлайн и адаптировать под задачи заказчика: проектный контекст, роли участников и переговорные ситуации.</p><a href="/#diagnostic">Обсудить формат</a></section>
     <section className="games-page-cta"><p>Нужна корпоративная игра для вашей команды?</p><h2>Обсудим задачу и подберём сценарий.</h2><a href="/#diagnostic">Оставить заявку</a></section>
-    <footer><a className="brand brand-footer" href="/"><span className="brand-mark">IT</span><span>ТЕРАПИЯ</span></a><p>Успешные IT‑проекты начинаются с честного разговора.</p><p>© 2026 IT‑Терапия</p></footer>
+    <SiteFooter/>
   </main>;
 }

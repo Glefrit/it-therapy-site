@@ -1,3 +1,4 @@
+import { SiteFooter } from "../site-footer";
 import type { Metadata } from "next";
 import { SiteHeader } from "../site-header";
 
@@ -34,6 +35,6 @@ export default function CardsPage(){
     <section className="cards-audience"><p className="eyebrow">ДЛЯ КОГО</p><div><h2>Для всех, кто влияет на победу в сделке.</h2><p>Руководители продаж и проектных офисов, аккаунты, менеджеры, кураторы, руководители проектов, аналитики, архитекторы и специалисты производства.</p></div></section>
 
     <section className="contact cards-contact"><p className="eyebrow">ПРОКАЧАТЬ ПРЕСЕЙЛ</p><h2>Соберите лучшие<br/>ответы команды.</h2><p className="contact-copy">Начните разговор об острых темах без напряжения и превратите опыт сильнейших сотрудников в актив всей компании.</p><div className="contact-actions"><a className="primary-action" href="https://t.me/Ekaterina_Makhnovskaya" target="_blank" rel="noreferrer">Приобрести набор</a><a href="mailto:info@it-therapy.ru">Задать вопрос</a></div></section>
-    <footer><a className="brand brand-footer" href="/"><span className="brand-mark">IT</span><span>ТЕРАПИЯ</span></a><p>200 вопросов для сильного IT-пресейла.</p><p>© 2026 IT‑Терапия</p></footer>
+    <SiteFooter/>
   </main>;
 }
