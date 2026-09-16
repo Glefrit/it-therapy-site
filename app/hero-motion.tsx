@@ -40,7 +40,7 @@ export function HeroMotion(){
       </svg>
     </div>
     <p className="eyebrow">IT-ТЕРАПИЯ / ПРОЕКТЫ — ЭТО ЛЮДИ</p>
-    <h1>Помогаем командам<br/><span className="accent-text">успешно продавать</span><br/>и реализовывать IT проекты.</h1>
-    <div className="wow-hero-bottom"><p className="editorial-lead">Соединяем проектную экспертизу и работу с людьми — от первого разговора с заказчиком до результата, который принимает команда.</p></div>
+    <h1>Помогаем командам <span className="accent-text">успешно</span> реализовывать IT-проекты.</h1>
+    <div className="wow-hero-bottom"><p className="editorial-lead">Соединяем проектную экспертизу и работу с людьми. От первого разговора с заказчиком до результата, который акцептует команда.</p></div>
   </section>;
 }

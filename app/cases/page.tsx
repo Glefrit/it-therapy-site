@@ -15,7 +15,7 @@ const cases = [
   { logo:"/clients/rzd-stroy.png", name:"РЖДстрой", work:"Тренинг SYNC по текущему проекту автоматизации" },
 ];
 export const metadata={title:"Кейсы — IT-Терапия"};
-export default function Page(){return <main><SiteHeader/>    <section className="portfolio" id="portfolio">
+export default function Page(){return <main><SiteHeader/>    <section className="portfolio hero-cases" id="portfolio">
       <div className="section-heading"><p className="eyebrow">КЕЙСЫ И ОТЗЫВЫ</p><h2>Нам доверяют<br/>сложные команды.</h2><p>От точечных тренировок до сопровождения действующих проектов автоматизации.</p></div>
       <div className="featured-cases">
         <article><div className="featured-case-logo"><img src="/clients/rzd-stroy.png" alt="РЖДстрой"/></div><span>ДЕЙСТВУЮЩИЙ ПРОЕКТ</span><h3>SYNC в ходе проекта автоматизации</h3><p>Фокус: вернуть участникам общее понимание результата, правил взаимодействия и ключевых проектных договорённостей.</p></article>
