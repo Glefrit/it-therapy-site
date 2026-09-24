@@ -3,6 +3,12 @@
   "exportedAt": "2026-09-24T19:25:23.394Z",
   "polls": [
     {
+      "id": "efec63085081",
+      "question": "Проверка сохранения в GitHub",
+      "createdAt": 1790279608324,
+      "answers": []
+    },
+    {
       "id": "e761a671a0a9",
       "question": "Тест-1?",
       "createdAt": 1790266652306,
@@ -32,5 +38,5 @@
     }
   ],
   "d1MigrationCompleted": true,
-  "updatedAt": "2026-09-24T19:51:59.298Z"
+  "updatedAt": "2026-09-24T19:53:28.570Z"
 }
