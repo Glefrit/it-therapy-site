@@ -1,7 +1,7 @@
 import { cp, mkdir, rm, writeFile } from "node:fs/promises";
 import { spawn } from "node:child_process";
 
-const routes = ["/", "/cards", "/cases", "/development", "/games", "/privacy", "/products", "/rescue", "/sync", "/teams"];
+const routes = ["/", "/cards", "/cases", "/development", "/games", "/privacy", "/products", "/rescue", "/sync", "/teams", "/oprosy", "/oprosy/otvet"];
 const output = new URL("../docs/", import.meta.url);
 const server = spawn(process.execPath, ["node_modules/vinext/dist/cli.js", "start", "-p", "4175", "-H", "127.0.0.1"], { stdio: "inherit" });
 
