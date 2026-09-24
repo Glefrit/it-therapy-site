@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1790265437384,
+      "tag": "0000_soft_redwing",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1790265457619,
+      "tag": "0001_sturdy_radioactive_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1790272523647,
+      "tag": "0002_amazing_rafael_vega",
+      "breakpoints": true
+    }
+  ]
+}
