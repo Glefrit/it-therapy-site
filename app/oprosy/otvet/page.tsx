@@ -1,6 +1,7 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
+import PollClient from "@/components/polls/poll-client";
 
 const subscribe = (notify: () => void) => {
   window.addEventListener("popstate", notify);
@@ -15,7 +16,5 @@ export default function PollAnswerPage() {
   const value = new URLSearchParams(search).get("id") || "";
   const id = /^[a-zA-Z0-9_-]{1,64}$/.test(value) ? value : "";
   if (!id) return <main style={{padding:32}}><h1>Нужна ссылка на опрос</h1><p>Откройте QR-код или ссылку, которую показал ведущий.</p><a href="https://it-therapy.ru/">IT-Терапия — на главную</a></main>;
-  return <main style={{height:"100dvh",minHeight:600,background:"#f6f3ed"}}>
-    <iframe title="Анонимный ответ на опрос IT-Терапии" src={`https://zhivoy-opros.lefrit.chatgpt.site/poll/${encodeURIComponent(id)}`} referrerPolicy="no-referrer" style={{width:"100%",height:"100%",border:0}}/>
-  </main>;
+  return <div style={{minHeight:"100dvh",background:"#f6f3ed",color:"#151515"}}><PollClient id={id}/></div>;
 }
