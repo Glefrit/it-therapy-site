@@ -4,7 +4,7 @@ import { pollFetch } from "./api";
 import { TherapyBrand } from "@/components/polls/therapy-brand";
 
 import { useEffect, useState } from "react";
-import { ArrowRight, CheckCircle2, MessageCircleQuestion } from "lucide-react";
+import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 
@@ -30,7 +30,6 @@ export default function PollClient({ id }: { id: string }) {
   return <main className="min-h-screen grid place-items-center px-4 py-10">
     <section className="panel w-full max-w-xl rounded-[2rem] p-6 sm:p-9">
       <div className="mb-7"><TherapyBrand /></div>
-      <div className="mb-7 flex items-center gap-3"><span className="grid h-11 w-11 place-items-center rounded-xl bg-[#ff5d1a] text-[#151515]"><MessageCircleQuestion /></span><div><p className="eyebrow">Анонимный ответ</p></div></div>
       {sent ? <div className="py-10 text-center"><CheckCircle2 className="mx-auto text-[#b83900]" size={54}/><h1 className="mt-5 text-3xl font-semibold">Ответ отправлен</h1><p className="mt-3 text-[#6d6a64]">Спасибо за участие.</p></div> : <>
         <h1 className="text-3xl font-semibold leading-tight sm:text-4xl">{question || (error ? "Опрос недоступен" : "Загружаем вопрос…")}</h1>
         <Textarea value={answer} onChange={e => setAnswer(e.target.value)} maxLength={1000} placeholder="Напишите ваш ответ" className="mt-7 min-h-36 border-[#151515]/20 bg-[#f6f3ed] text-base text-[#151515] placeholder:text-[#6d6a64]" />
