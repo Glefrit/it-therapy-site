@@ -1,0 +1,5 @@
+Options -Indexes
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+<FilesMatch "^(config|app|auth).*">
+Require all denied
+</FilesMatch>
