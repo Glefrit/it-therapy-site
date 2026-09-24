@@ -6,7 +6,13 @@
             "id": "5f6c1944272f",
             "question": "Как превратить конфликт продаж и производства в командную работу?",
             "createdAt": 1790283948772,
-            "answers": []
+            "answers": [
+                {
+                    "id": "3fb8be76b2420f2da3a326cf7194fb2d",
+                    "answer": "Leffy",
+                    "createdAt": 1790286492618
+                }
+            ]
         },
         {
             "id": "a09445628f56",
@@ -38,5 +44,5 @@
         }
     ],
     "d1MigrationCompleted": true,
-    "updatedAt": "2026-09-24T21:05:49+00:00"
+    "updatedAt": "2026-09-24T21:48:12+00:00"
 }
