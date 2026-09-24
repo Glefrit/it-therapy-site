@@ -6,7 +6,13 @@
             "id": "e88d8fdd3aba",
             "question": "Тест переноса на REG.RU",
             "createdAt": 1790282114598,
-            "answers": []
+            "answers": [
+                {
+                    "id": "7316b5676765170f5692622a95c36913",
+                    "answer": "Проверка REG.RU → GitHub",
+                    "createdAt": 1790282116139
+                }
+            ]
         },
         {
             "id": "a09445628f56",
@@ -44,5 +50,5 @@
         }
     ],
     "d1MigrationCompleted": true,
-    "updatedAt": "2026-09-24T20:35:14+00:00"
+    "updatedAt": "2026-09-24T20:35:16+00:00"
 }
