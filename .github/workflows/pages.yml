@@ -27,6 +27,7 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - run: node --test tests/diagnostic-privacy.test.mjs
       - run: node node_modules/vinext/dist/cli.js build
       - run: node scripts/export-github-pages.mjs
       - uses: actions/configure-pages@v5

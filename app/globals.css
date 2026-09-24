@@ -323,7 +323,16 @@ nav a:hover,.header-cta:hover { color:var(--orange); }
 .diagnostic-actions button { min-height:54px; padding:14px 18px; color:white; background:var(--orange); border:1px solid var(--orange); border-radius:30px; font-size:12px; font-weight:700; cursor:pointer; }
 .diagnostic-actions button+button { color:white; background:transparent; border-color:rgba(255,255,255,.35); }
 .diagnostic-actions button:disabled { opacity:.28; cursor:not-allowed; }
-.diagnostic-hint { margin:14px 0 0; color:#777; font-size:10px; text-align:center; }
+.diagnostic-hint { margin:14px 0 0; color:#bcb8b2; font-size:13px; line-height:1.5; }
+.diagnostic-notice { margin:18px 0 0; color:#c9c5bf; font-size:14px; line-height:1.6; }
+.diagnostic-notice p+p { margin-top:12px; }
+.diagnostic-notice a,.diagnostic-channels a { text-decoration:underline; text-underline-offset:4px; }
+.diagnostic-message { line-height:1.6; }
+.diagnostic-status { margin-top:12px; color:#fff; font-size:14px; line-height:1.6; }
+.diagnostic-status:empty { display:none; }
+.diagnostic-channels { display:flex; flex-wrap:wrap; gap:16px 24px; margin-top:24px; font-size:14px; }
+.diagnostic-channels a { min-height:44px; display:inline-flex; align-items:center; }
+.legal-page h3 { margin:28px 0 12px; font-size:20px; }
 
 .sync-page-hero { min-height:calc(100svh - 82px); padding:100px 3vw 60px; display:grid; grid-template-columns:1fr 1.2fr; grid-template-rows:auto 1fr; column-gap:5vw; background:#dfe4e7; }
 .sync-page-hero>.eyebrow { grid-column:1 / span 2; margin-bottom:60px; }
