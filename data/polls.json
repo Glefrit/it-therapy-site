@@ -1,42 +1,48 @@
 {
-  "schemaVersion": 1,
-  "exportedAt": "2026-09-24T19:25:23.394Z",
-  "polls": [
-    {
-      "id": "a09445628f56",
-      "question": "111",
-      "createdAt": 1790279912131,
-      "answers": []
-    },
-    {
-      "id": "d60388fe4f4b",
-      "question": "Как превратить конфликт продаж и производства в командную работу?",
-      "createdAt": 1790279811406,
-      "answers": []
-    },
-    {
-      "id": "e761a671a0a9",
-      "question": "Тест-1?",
-      "createdAt": 1790266652306,
-      "answers": [
+    "schemaVersion": 1,
+    "exportedAt": "2026-09-24T19:25:23.394Z",
+    "polls": [
         {
-          "id": "3608252e-d366-497b-b509-c47e28892312",
-          "answer": "Не знаю",
-          "createdAt": 1790266730164
+            "id": "e88d8fdd3aba",
+            "question": "Тест переноса на REG.RU",
+            "createdAt": 1790282114598,
+            "answers": []
         },
         {
-          "id": "59ae72d2-c5e2-4a39-a6df-12b7771c43d6",
-          "answer": "Аокладк",
-          "createdAt": 1790266822921
+            "id": "a09445628f56",
+            "question": "111",
+            "createdAt": 1790279912131,
+            "answers": []
         },
         {
-          "id": "e0606c17-5481-4dff-8400-41a6ec118b07",
-          "answer": "Шулул3т3т3туь\nОвокткт\nОкткл3\nАлкллуьудубу\nВлуль2ткша\nАбьктк",
-          "createdAt": 1790266842992
+            "id": "d60388fe4f4b",
+            "question": "Как превратить конфликт продаж и производства в командную работу?",
+            "createdAt": 1790279811406,
+            "answers": []
+        },
+        {
+            "id": "e761a671a0a9",
+            "question": "Тест-1?",
+            "createdAt": 1790266652306,
+            "answers": [
+                {
+                    "id": "3608252e-d366-497b-b509-c47e28892312",
+                    "answer": "Не знаю",
+                    "createdAt": 1790266730164
+                },
+                {
+                    "id": "59ae72d2-c5e2-4a39-a6df-12b7771c43d6",
+                    "answer": "Аокладк",
+                    "createdAt": 1790266822921
+                },
+                {
+                    "id": "e0606c17-5481-4dff-8400-41a6ec118b07",
+                    "answer": "Шулул3т3т3туь\nОвокткт\nОкткл3\nАлкллуьудубу\nВлуль2ткша\nАбьктк",
+                    "createdAt": 1790266842992
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "d1MigrationCompleted": true,
-  "updatedAt": "2026-09-24T19:58:32.359Z"
+    ],
+    "d1MigrationCompleted": true,
+    "updatedAt": "2026-09-24T20:35:14+00:00"
 }
