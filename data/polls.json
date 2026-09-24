@@ -6,7 +6,13 @@
       "id": "efec63085081",
       "question": "Проверка сохранения в GitHub",
       "createdAt": 1790279608324,
-      "answers": []
+      "answers": [
+        {
+          "id": "880cccca-ee10-4971-bcdc-2c1408f4f1fb",
+          "answer": "Тестовый ответ в GitHub",
+          "createdAt": 1790279610240
+        }
+      ]
     },
     {
       "id": "e761a671a0a9",
@@ -38,5 +44,5 @@
     }
   ],
   "d1MigrationCompleted": true,
-  "updatedAt": "2026-09-24T19:53:28.570Z"
+  "updatedAt": "2026-09-24T19:53:30.525Z"
 }
