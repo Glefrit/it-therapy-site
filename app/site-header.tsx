@@ -11,7 +11,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 
-const links = [{"href": "/", "label": "Главная"}, {"href": "/products", "label": "Продукты и услуги"}, {"href": "/development", "label": "Развиваем сотрудников"}, {"href": "/teams", "label": "Синхронизируем команды"}, {"href": "/rescue", "label": "Спасаем проекты"}, {"href": "/cases", "label": "Кейсы"}, {"href": "/cards", "label": "Карточки IT-Пресейл"}, {"href": "https://kovcheg.it-therapy.ru/", "label": 'Бизнес-игра "Ковчег"'}];
+const links = [{"href": "/", "label": "Главная"}, {"href": "/products", "label": "Продукты и услуги"}, {"href": "/development", "label": "Развиваем сотрудников"}, {"href": "/teams", "label": "Синхронизируем команды"}, {"href": "/rescue", "label": "Спасаем проекты"}, {"href": "/cases", "label": "Кейсы"}, {"href": "/cards", "label": "Карточки IT-Пресейл"}];
 
 export function SiteHeader({ ctaHref="/#diagnostic", ctaLabel="Обсудить задачу" }:{ ctaHref?:string; ctaLabel?:string }){
   return <header className="site-header">
